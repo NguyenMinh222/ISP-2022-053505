@@ -1,7 +1,6 @@
 from Function_operation import Operations
 
 
-
 class Program:
     
 
@@ -29,7 +28,5 @@ class Program:
         sorted_dict = Operations.getsorted_dict(words_dict)
         Operations.show_dict(sorted_dict,K)
        
-
-        
-
+  
 Program.main()
