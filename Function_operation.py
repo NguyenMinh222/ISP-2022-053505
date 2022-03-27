@@ -1,5 +1,3 @@
-
-
 from collections import Counter
 import re
 import statistics as st
@@ -40,7 +38,7 @@ class Operations:
         return print("\nМедианное количество слов: ", medianenum)
     
     @staticmethod
-    def wordsDict(word,n):
+    def Dict_Words(word,n):
         dict_words = {}
         for word111 in word:
             if len(word111)==n:
@@ -51,14 +49,16 @@ class Operations:
         return dict_words
 
     @staticmethod
-    def getsortedDict(init_dict: dict):
+    def getsorted_dict(init_dict: dict):
         sorted_dict = dict(sorted(init_dict.items(),reverse=True,key=lambda x:x[1]))
         return sorted_dict
 
     @staticmethod
-    def printDict(dict,k):
+    def show_dict(dict,k):
         counter = 0
         for  kol in dict:
             if(counter<k):
                 print(kol.ljust(20),dict[kol])
                 counter=counter+1
+ 
+   

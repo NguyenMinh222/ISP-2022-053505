@@ -25,11 +25,10 @@ class Program:
         Operations.AverageNumOfWordsInSent(text)    
         Operations.MedianeNum(text)
         print('\nПовторяющиеся буквенные N-грамы:')
-        words_Dict = Operations.wordsDict(word,N)
-        sorted_Dict = Operations.getsortedDict(words_Dict)
-        Operations.printDict(sorted_Dict,K)
-        
-        
+        words_dict = Operations.Dict_Words(word,N)
+        sorted_dict = Operations.getsorted_dict(words_dict)
+        Operations.show_dict(sorted_dict,K)
+       
 
         
 
