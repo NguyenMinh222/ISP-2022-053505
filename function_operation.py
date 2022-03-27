@@ -60,5 +60,3 @@ class Operations:
             if(counter<k):
                 print(kol.ljust(20),dict[kol])
                 counter=counter+1
- 
-   
