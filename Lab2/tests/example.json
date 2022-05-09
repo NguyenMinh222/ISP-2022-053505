@@ -1,0 +1,34 @@
+[func.code]
+co_argcount = 2
+co_filename = "C:\\Users\\vscode\\PycharmProjects\\LAB2\\tests\\ser_entities.py"
+co_firstlineno = 11
+co_flags = 67
+co_kwonlyargcount = 0
+co_name = "mul"
+co_nlocals = 2
+co_posonlyargcount = 0
+co_stacksize = 2
+
+[func.code.co_cellvars]
+list = []
+
+[func.code.co_code]
+bytes = "7c007c0114005300"
+
+[func.code.co_consts]
+list = [ "None",]
+
+[func.code.co_freevars]
+list = []
+
+[func.code.co_linetable]
+bytes = "0801"
+
+[func.code.co_lnotab]
+bytes = "0001"
+
+[func.code.co_names]
+list = []
+
+[func.code.co_varnames]
+list = [ "a", "b",]
